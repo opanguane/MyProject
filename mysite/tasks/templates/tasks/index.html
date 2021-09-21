@@ -1,0 +1,16 @@
+{% extends 'tasks/layout.html' %}
+
+{% block tile %}
+    Tasks
+{% endblock %}
+
+{% block body %}
+<h1>Tasks</h1>
+<ul>
+    {% for task in tasks %}
+        <li>{{ task }}</li>
+    {% empty %}
+        <p>No Task(s) available.</p>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -33,6 +33,10 @@ MANIFEST
 *.manifest
 *.spec
 
+*init__.py
+asgi.py
+wsgi.py
+manage.py
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
